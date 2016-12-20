@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 var salesAgentCtrl = require('./controllers/salesAgentCtrl');
 var reportsCtrl = require('./controllers/reportsCtrl');
 var userCtrl = require('./controllers/userCtrl');
-var port = (8080);
+var port = (process.env.PORT || 5000);
 var router = express.Router();
 
 
