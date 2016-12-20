@@ -1,0 +1,35 @@
+{
+  "name": "efficiency-api",
+  "version": "1.0.0",
+  "description": "api para la aplicacion de eficiencia de me",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongodb": "^2.2.15",
+    "mongoose": "^4.7.2",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZyMonogatari/ProgramaDeEficienciaMexicoExplorerApi.git"
+  },
+  "keywords": [
+    "api",
+    "efficiency",
+    "me"
+  ],
+  "author": "ZyMonogatari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZyMonogatari/ProgramaDeEficienciaMexicoExplorerApi/issues"
+  },
+  "homepage": "https://github.com/ZyMonogatari/ProgramaDeEficienciaMexicoExplorerApi#readme"
+}
